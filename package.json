@@ -1,8 +1,8 @@
 {
   "name": "node-red-contrib-raumfeld",
-  "version": "1.0.26",
+  "version": "1.0.37",
   "description": "Control a Teufel Raumfeld system",
-  "author": "Alexander Leisentritt",
+  "author": "Ness42",
   "license": "ISC",
   "keywords": [
     "node-red",
@@ -22,6 +22,7 @@
     "nodes": {
       "raumfeld raumkernel": "./nodes/raumfeld-raumkernel.js",
       "raumfeld room drop from zone": "./nodes/raumfeld-room-drop-from-zone.js",
+      "raumfeld room add to zone": "./nodes/raumfeld-room-add-to-zone.js",
       "raumfeld room get media title": "./nodes/raumfeld-room-get-media-title.js",
       "raumfeld room get volume": "./nodes/raumfeld-room-get-volume.js",
       "raumfeld room get mute": "./nodes/raumfeld-room-get-mute.js",
